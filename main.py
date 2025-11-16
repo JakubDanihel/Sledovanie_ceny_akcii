@@ -7,15 +7,15 @@ import email.message
 # --- Nastavenia ---
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-NEWS_API_KEY = "8ba86b46fafa4b348da6688c70899117"
+NEWS_API_KEY = "XXXX" #API kluc pre spravy
 
 # --- Nastavenia pre E-mail ---
 # UPOZORNENIE: Heslo aplikacie nie je to iste ako heslo k vasmu Gmail uctu!
 # Pre Gmail je potrebne vygenerovat "App Password".
 SEND_EMAIL = True
-EMAIL_SENDER = "testprogramko@gmail.com"
-EMAIL_APP_PASSWORD = "fxsb awdp seti tlso"
-EMAIL_RECEIVER = "testprogramko@gmail.com"
+EMAIL_SENDER = "XXX" #emil odkial bude odosielana sprava
+EMAIL_APP_PASSWORD = "XXX" #heslo k aplikacii
+EMAIL_RECEIVER = "XXX" #email kde ma byt zaslane oznamenie o zmene ceny akcii
 
 
 def send_email(subject, body):
